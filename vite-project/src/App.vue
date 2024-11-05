@@ -5,5 +5,6 @@
   <div>
     <h1>Hello World</h1>
     <h1>SuperSim Web</h1>
+    <h1>SuperSim Web2</h1>
   </div>
 </template>
