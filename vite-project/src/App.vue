@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import RandomNumber from './components/RandomNumber.vue'
-
+import DarkMode from './components/DarkMode.vue'
 
 const currentPage = ref('home')
 
@@ -38,6 +38,8 @@ const switchPage = (page) => {
             </ul>
           </li>
         </ul>
+       
+        <DarkMode />
       </div>
     </div>
   </nav>
