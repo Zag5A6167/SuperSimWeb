@@ -59,7 +59,9 @@ const switchPage = (page) => {
 
 
 <style>
+
 .hover-effect:hover{
-  color: red;
+  color: red !important;
+  
 }
 </style>
