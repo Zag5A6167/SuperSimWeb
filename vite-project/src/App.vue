@@ -15,7 +15,7 @@ const switchPage = (page) => {
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#" @click="switchPage('home')">SuperSim Web</a>
+      <a class="navbar-brand hover-effect" href="#" @click="switchPage('home')">SuperSim Web</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -56,3 +56,10 @@ const switchPage = (page) => {
   
 
 </template>
+
+
+<style>
+.hover-effect:hover{
+  color: red;
+}
+</style>
